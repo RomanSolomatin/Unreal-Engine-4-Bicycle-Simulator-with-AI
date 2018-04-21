@@ -8,5 +8,7 @@ public class BikeV3Target : TargetRules
 	public BikeV3Target(TargetInfo Target) : base (Target)
 	{
 		Type = TargetType.Game;
+
+		ExtraModuleNames.Add("BikeV3");
 	}
 }
