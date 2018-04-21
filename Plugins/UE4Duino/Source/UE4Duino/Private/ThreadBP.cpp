@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "ThreadBP.h"
 #include "UE4DuinoPCH.h"
 #include "ThreadTest.h"
-#include "ThreadBP.h"
 
 CSerial *UThreadBP::SP = new CSerial();
 UThreadBP *UThreadBP::BP = NewObject<UThreadBP>();

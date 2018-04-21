@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "UE4DuinoPCH.h"
 #include "ThreadTest.h"
+#include "UE4DuinoPCH.h"
 #include "ThreadBP.h"
 
 ThreadTest* ThreadTest::Runnable = NULL;

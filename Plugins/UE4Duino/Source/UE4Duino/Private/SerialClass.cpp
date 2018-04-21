@@ -1,7 +1,7 @@
 //Based off the "Arduino and C++ (for Windows)" code found at: http://playground.arduino.cc/Interfacing/CPPWindows
 
-#include "UE4DuinoPCH.h"
 #include "SerialClass.h"
+#include "UE4DuinoPCH.h"
 
 CSerial::CSerial()
 {

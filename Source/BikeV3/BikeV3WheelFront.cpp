@@ -1,7 +1,7 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 
-#include "BikeV3.h"
 #include "BikeV3WheelFront.h"
+#include "BikeV3.h"
 #include "Vehicles/TireType.h"
 
 UBikeV3WheelFront::UBikeV3WheelFront()
