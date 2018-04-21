@@ -14,6 +14,7 @@
 #include "WheeledVehicleMovementComponent4W.h"
 #include "Engine/SkeletalMesh.h"
 #include "RiderAnimation.h"
+#include "ConstructorHelpers.h"
 
 
 #ifdef HMD_INTGERATION

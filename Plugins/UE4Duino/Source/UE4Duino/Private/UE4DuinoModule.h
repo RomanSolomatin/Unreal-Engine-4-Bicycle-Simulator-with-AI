@@ -1,5 +1,7 @@
 #pragma once
 
+#include "EngineMinimal.h"
+
 DECLARE_LOG_CATEGORY_EXTERN(ModuleLog, Log, All)
 
 class UE4DuinoModule : public IModuleInterface

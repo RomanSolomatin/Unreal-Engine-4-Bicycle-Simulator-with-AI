@@ -6,6 +6,7 @@
 #include "Engine/Canvas.h"
 #include "Engine/Font.h"
 #include "CanvasItem.h"
+#include "ConstructorHelpers.h"
 
 #ifdef HMD_INTGERATION
 // Needed for VR Headset

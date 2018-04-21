@@ -5,6 +5,8 @@
 #include "WheeledVehicle.h"
 #include "WheeledVehicleMovementComponent.h"
 #include "BikeV3Pawn.h"
+#include "DrawDebugHelpers.h"
+#include "Engine/Engine.h"
 
 UVehiclePathFollowingComponent::UVehiclePathFollowingComponent()
 	: CurrentThrottle(0.0f)

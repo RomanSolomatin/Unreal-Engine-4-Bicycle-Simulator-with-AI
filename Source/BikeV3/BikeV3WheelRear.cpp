@@ -3,6 +3,7 @@
 #include "BikeV3WheelRear.h"
 #include "BikeV3.h"
 #include "Vehicles/TireType.h"
+#include "ConstructorHelpers.h"
 
 UBikeV3WheelRear::UBikeV3WheelRear()
 {
