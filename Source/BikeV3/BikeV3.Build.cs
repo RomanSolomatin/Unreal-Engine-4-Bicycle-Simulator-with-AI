@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class BikeV3 : ModuleRules
 {
-	public BikeV3(TargetInfo Target)
+	public BikeV3(ReadOnlyTargetRules Target) : base (Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] {
             "Core",

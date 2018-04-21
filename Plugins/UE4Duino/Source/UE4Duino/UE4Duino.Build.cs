@@ -2,7 +2,7 @@ using UnrealBuildTool;
 
 public class UE4Duino : ModuleRules
 {
-    public UE4Duino(TargetInfo target)
+    public UE4Duino(ReadOnlyTargetRules Target) : base (Target)
     {
         PrivateIncludePaths.AddRange(new string[] { "UE4Duino/Private" });
 

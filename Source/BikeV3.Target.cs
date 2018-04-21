@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class BikeV3Target : TargetRules
 {
-	public BikeV3Target(TargetInfo Target)
+	public BikeV3Target(TargetInfo Target) : base (Target)
 	{
 		Type = TargetType.Game;
 	}
