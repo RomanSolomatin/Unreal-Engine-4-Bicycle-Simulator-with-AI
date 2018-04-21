@@ -11,7 +11,7 @@
 #include "Components/InputComponent.h"
 #include "Components/TextRenderComponent.h"
 #include "PhysicalMaterials/PhysicalMaterial.h"
-#include "Vehicles/WheeledVehicleMovementComponent4W.h"
+#include "WheeledVehicleMovementComponent4W.h"
 #include "Engine/SkeletalMesh.h"
 #include "RiderAnimation.h"
 

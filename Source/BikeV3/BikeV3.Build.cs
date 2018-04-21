@@ -14,6 +14,8 @@ public class BikeV3 : ModuleRules
             "Engine",
             "InputCore",
             "HeadMountedDisplay",
-            "AIModule" });
+            "AIModule",
+            "PhysXVehicles"
+        });
 	}
 }

@@ -2,8 +2,8 @@
 
 #include "VehiclePathFollowingComponent.h"
 #include "BikeV3.h"
-#include "GameFramework/WheeledVehicle.h"
-#include "Vehicles/WheeledVehicleMovementComponent.h"
+#include "WheeledVehicle.h"
+#include "WheeledVehicleMovementComponent.h"
 #include "BikeV3Pawn.h"
 
 UVehiclePathFollowingComponent::UVehiclePathFollowingComponent()

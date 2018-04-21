@@ -1,6 +1,6 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 #pragma once
-#include "GameFramework/WheeledVehicle.h"
+#include "WheeledVehicle.h"
 #include "BikeV3Pawn.generated.h"
 
 class UPhysicalMaterial;
