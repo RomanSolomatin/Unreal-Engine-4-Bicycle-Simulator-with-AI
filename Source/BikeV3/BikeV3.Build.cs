@@ -6,6 +6,8 @@ public class BikeV3 : ModuleRules
 {
 	public BikeV3(ReadOnlyTargetRules Target) : base (Target)
 	{
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+
 		PublicDependencyModuleNames.AddRange(new string[] {
             "Core",
             "CoreUObject",
