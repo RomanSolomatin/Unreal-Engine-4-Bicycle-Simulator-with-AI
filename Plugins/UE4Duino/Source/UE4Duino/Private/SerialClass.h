@@ -13,6 +13,7 @@
 #define ASCII_XOFF      0x13
 
 #include "UE4DuinoPCH.h"
+#include "MinWindows.h"
 #include "windows.h"
 #include "AllowWindowsPlatformTypes.h"
 class CSerial
