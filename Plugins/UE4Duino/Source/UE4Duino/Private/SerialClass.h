@@ -1,7 +1,6 @@
 // Serial.h
 
-#ifndef __SERIAL_H__
-#define __SERIAL_H__
+#pragma once
 
 #define FC_DTRDSR       0x01
 #define FC_RTSCTS       0x02
@@ -42,4 +41,3 @@ protected:
 
 };
 
-#endif
