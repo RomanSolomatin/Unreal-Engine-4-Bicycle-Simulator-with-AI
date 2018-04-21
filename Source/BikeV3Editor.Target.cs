@@ -8,5 +8,10 @@ public class BikeV3EditorTarget : TargetRules
 	public BikeV3EditorTarget(TargetInfo Target) : base (Target)
 	{
 		Type = TargetType.Editor;
+
+		ExtraModuleNames.Add("BikeV3");
+
+        bUseUnityBuild = false;
+        bUsePCHFiles = false;
 	}
 }
