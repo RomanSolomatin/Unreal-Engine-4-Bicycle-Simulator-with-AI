@@ -9,17 +9,4 @@ public class BikeV3EditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 	}
-
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-		TargetInfo Target,
-		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-		ref List<string> OutExtraModuleNames
-		)
-	{
-		OutExtraModuleNames.Add("BikeV3");
-	}
 }
